@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+const ${1:Component} = (${2:props}) => {
+    return (
+        $0
+    );
+};
+]]></content>
+    <tabTrigger>rcc</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: stateless component</description>
+</snippet>

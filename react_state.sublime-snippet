@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+const { $1 } = ${2:this.}state;
+]]></content>
+    <tabTrigger>state</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: const {} = this.state</description>
+</snippet>

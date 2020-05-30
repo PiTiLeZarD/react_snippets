@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+import { withStyles } from "@material-ui/core/styles";
+import styles from "../styles/${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}";
+$0
+]]></content>
+    <tabTrigger>styles</tabTrigger>
+    <scope>source.js</scope>
+    <description>MUI: withStyles imports</description>
+</snippet>

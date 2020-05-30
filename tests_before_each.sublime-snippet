@@ -1,0 +1,11 @@
+
+<snippet>
+    <content><![CDATA[
+beforeEach(() => {
+    $0
+});
+]]></content>
+    <tabTrigger>before</tabTrigger>
+    <scope>source.js</scope>
+    <description>Test: beforeEach</description>
+</snippet>

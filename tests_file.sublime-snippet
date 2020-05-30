@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+// https://testing-library.com/docs/react-testing-library/cheatsheet
+
+import React from "react";
+import { render, fireEvent, wait, cleanup } from "@testing-library/react";
+
+import ${1:${TM_FILENAME/(.+)Test\..+|.*/$1/:ComponentName}} from "../$1";
+
+describe("$1Test", () => {
+    afterEach(cleanup);
+
+    it("should render", () => {
+        const { getAllByText } = render(<$1 />);
+
+        let all = getAllByText($0);
+    });
+});
+]]></content>
+    <tabTrigger>testfile</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: unit test</description>
+</snippet>

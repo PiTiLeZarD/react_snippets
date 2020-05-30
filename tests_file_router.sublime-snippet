@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+// https://testing-library.com/docs/react-testing-library/cheatsheet
+
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import { render, fireEvent, wait, cleanup } from "@testing-library/react";
+
+import ${1:${TM_FILENAME/(.+)Test\..+|.*/$1/:ComponentName}} from "../$1";
+
+describe("$1Test", () => {
+    afterEach(cleanup);
+
+    it("should render", () => {
+        const { getAllByText } = render(
+            <Router>
+                <$1 />
+            </Router>
+        );
+
+        let all = getAllByText($0);
+    });
+});
+]]></content>
+    <tabTrigger>testfile</tabTrigger>
+    <scope>source.js</scope>
+    <description>Test: unit test (router)</description>
+</snippet>

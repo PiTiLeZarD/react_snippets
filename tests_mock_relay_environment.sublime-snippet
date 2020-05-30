@@ -1,0 +1,12 @@
+
+<snippet>
+    <content><![CDATA[
+jest.mock('${1:path/to/Environment}', () => {
+    const { createMockEnvironment } = require('relay-test-utils');
+    return createMockEnvironment();
+});
+]]></content>
+    <tabTrigger>relay</tabTrigger>
+    <scope>source.js</scope>
+    <description>Test: Mock Relay Environment</description>
+</snippet>

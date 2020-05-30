@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<Typography variant="${1:body1}">$0</Typography>
+]]></content>
+    <tabTrigger>typo</tabTrigger>
+    <scope>source.js</scope>
+    <description>Typography tag</description>
+</snippet>
