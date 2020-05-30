@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+import React from "react";
+import { createFragmentContainer, graphql } from "react-relay";
+
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}Component = (props) => {
+    const { ${2:data} } = props;
+
+    return (
+        $0
+    );
+};
+
+const $1 = createFragmentContainer($1Component, {
+    $2: graphql`
+        fragment $1_$2 on ${3:GraphQLType} {
+            id
+        }
+    `,
+});
+
+export default $1;
+]]></content>
+    <tabTrigger>rcc</tabTrigger>
+    <scope>source.js -(meta)</scope>
+    <description>React: relay fragment component</description>
+</snippet>
