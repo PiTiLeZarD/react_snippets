@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+<Card ${1:variant="outlined"}>
+    <CardHeader title={${2:title}} />
+
+    <CardContent>
+        $0
+    </CardContent>
+
+    <CardActions>
+        <Button>${3:Action}</Button>
+    </CardActions>
+</Card>
+]]></content>
+    <tabTrigger>card</tabTrigger>
+    <scope>source.js</scope>
+    <description>MUI: Card</description>
+</snippet>
