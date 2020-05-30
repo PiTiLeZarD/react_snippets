@@ -13,5 +13,5 @@ export default styles;
 ]]></content>
     <tabTrigger>style</tabTrigger>
     <scope>source.js</scope>
-    <description>Material UI Styles</description>
+    <description>MUI: Styles</description>
 </snippet>

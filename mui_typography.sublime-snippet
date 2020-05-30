@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>typo</tabTrigger>
     <scope>source.js</scope>
-    <description>Typography tag</description>
+    <description>MUI: Typography</description>
 </snippet>
