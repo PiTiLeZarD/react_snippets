@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+{${1:base}.map((${2:obj}, key) => (
+    <${3:Component} key={key} />
+))}
+]]></content>
+    <tabTrigger>map</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: map</description>
+</snippet>
+
+
