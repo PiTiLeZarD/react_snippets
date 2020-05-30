@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<${1:span} dangerouslySetInnerHTML={{ __html: $0 }} />
+]]></content>
+    <tabTrigger>html</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: dangerouslySetInnerHTML</description>
+</snippet>
+
