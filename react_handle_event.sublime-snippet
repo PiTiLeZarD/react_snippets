@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+const handle${1:Event} = (event) => {
+    $0
+};
+]]></content>
+    <tabTrigger>handle</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: handleEvent</description>
+</snippet>
