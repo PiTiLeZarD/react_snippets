@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<FormControl component="fieldset">
+    <FormLabel component="legend">${1:label}</FormLabel>
+    <RadioGroup aria-label="${1}" name="${1}" value={value} onChange={handleChange}>
+        <FormControlLabel value="${2:Value}" control={<Radio />} label="${3:Label}" />
+        $0
+    </RadioGroup>
+</FormControl>
+]]></content>
+    <tabTrigger>radio</tabTrigger>
+    <scope>source.js</scope>
+    <description>MUI: Radio Buttons</description>
+</snippet>
