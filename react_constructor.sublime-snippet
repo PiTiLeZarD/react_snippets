@@ -1,12 +1,12 @@
 <snippet>
     <content><![CDATA[
-    constructor(props) {
-        super(props);
+constructor(props) {
+    super(props);
 
-        this.state = {
-            $0
-        }
+    this.state = {
+        $0
     }
+}
 ]]></content>
     <tabTrigger>constructor</tabTrigger>
     <scope>source.js</scope>
