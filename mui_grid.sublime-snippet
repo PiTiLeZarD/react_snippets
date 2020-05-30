@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<Grid container spacing={8}>
+    <Grid item xs={12}>
+        $0
+    </Grid>
+</Grid>
+]]></content>
+    <tabTrigger>grid</tabTrigger>
+    <scope>source.js</scope>
+    <description>MUI Basic Grid</description>
+</snippet>

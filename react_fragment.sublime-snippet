@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<React.Fragment>$0</React.Fragment>
+]]></content>
+    <tabTrigger>frag</tabTrigger>
+    <scope>source.js</scope>
+    <description>React.Fragment</description>
+</snippet>
