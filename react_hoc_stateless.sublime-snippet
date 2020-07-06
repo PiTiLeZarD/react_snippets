@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+function with${1}(WrappedComponent) {
+    return (props) => {
+        const { ...passThroughProps } = props;
+        ${0}
+        return <WrappedComponent {...passThroughProps} />;
+    };
+}
+]]></content>
+    <tabTrigger>rhoc</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: HOC (stateless)</description>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+function with${1}(WrappedComponent) {
+    return class extends React.Component {
+        constructor(props) {
+            super(props);
+        }
+
+        render() {
+            const { ...passThruProps } = this.props;
+            ${0}
+            return <WrappedComponent {...passThruProps} />;
+        }
+    };
+}
+]]></content>
+    <tabTrigger>rhoc</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: HOC</description>
+</snippet>
