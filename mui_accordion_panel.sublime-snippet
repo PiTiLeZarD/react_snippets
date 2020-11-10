@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+<Accordion expanded={expanded === "${1:panelID}"} onChange={handleChange("${1}")}>
+    <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="${1}bh-content" id="${1}bh-header">
+        <span>${2:Title}</span>
+    </AccordionSummary>
+    <AccordionDetails id="${1}bh-content">
+        <p>${0:Content}</p>
+    </AccordionDetails>
+</Accordion>
+]]></content>
+    <tabTrigger>accordion</tabTrigger>
+    <scope>source.js</scope>
+    <description>MUI: Accordion</description>
+</snippet>
+

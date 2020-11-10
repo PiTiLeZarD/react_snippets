@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+Buffer.from($0).toString("base64")
+]]></content>
+    <tabTrigger>base64</tabTrigger>
+    <scope>source.js</scope>
+    <description>JS: base64</description>
+</snippet>
+
