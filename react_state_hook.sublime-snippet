@@ -1,7 +1,7 @@
 
 <snippet>
     <content><![CDATA[
-const [${1:param}, set${1/(.+)/\u$1/g}] = React.useState(${2:null});
+const [${1:param}, set${1/(.+)/\u$1/g}] = useState(${2:null});
 ]]></content>
     <tabTrigger>state</tabTrigger>
     <scope>source.js</scope>

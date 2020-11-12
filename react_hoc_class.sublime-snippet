@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 function with${1}(WrappedComponent) {
-    return class extends React.Component {
+    return class extends Component {
         constructor(props) {
             super(props);
         }

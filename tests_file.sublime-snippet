@@ -2,7 +2,6 @@
     <content><![CDATA[
 // https://testing-library.com/docs/react-testing-library/cheatsheet
 
-import React from "react";
 import { render, fireEvent, wait, cleanup } from "@testing-library/react";
 
 import ${1:${TM_FILENAME/(.+)Test\..+|.*/$1/:ComponentName}} from "../$1";

@@ -1,7 +1,5 @@
 <snippet>
     <content><![CDATA[
-import React from 'react';
-
 const styles = (theme) => ({
     ${1:className}: {
         $0
@@ -9,7 +7,6 @@ const styles = (theme) => ({
 });
 
 export default styles;
-
 ]]></content>
     <tabTrigger>style</tabTrigger>
     <scope>source.js</scope>

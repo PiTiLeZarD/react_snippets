@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<React.Fragment>$0</React.Fragment>
+<Fragment>$0</Fragment>
 ]]></content>
     <tabTrigger>frag</tabTrigger>
     <scope>source.js</scope>

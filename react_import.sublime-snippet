@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+import { $1 } from ${2:React};
+]]></content>
+    <tabTrigger>import</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: import</description>
+</snippet>
+
