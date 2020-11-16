@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-const styles = (theme) => ({
-    ${1:className}: {
+const ${1:styles} = (theme) => ({
+    ${2:className}: {
         $0
     },
 });
