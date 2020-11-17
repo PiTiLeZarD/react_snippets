@@ -6,7 +6,7 @@ const ${1:styles} = (theme) => ({
     },
 });
 
-export default styles;
+export default $1;
 ]]></content>
     <tabTrigger>style</tabTrigger>
     <scope>source.js</scope>
