@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-import { $1 } from "${2:react}";
+import ${2:{ $1 \}} from "${3:react}";
 ]]></content>
     <tabTrigger>import</tabTrigger>
     <scope>source.js</scope>
