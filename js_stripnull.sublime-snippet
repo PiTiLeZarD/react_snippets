@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+Object.keys(${1:obj}).forEach((key) => $1[key] === null && delete $1[key]);
+]]></content>
+    <tabTrigger>stripnull</tabTrigger>
+    <scope>source.js</scope>
+    <description>JS: Strip null values from object</description>
+</snippet>
+
