@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+const Styled${1:Component} = withStyles((theme) => ({
+    ${3:root}: {
+        ${0}
+    },
+}))(${1});
+]]></content>
+    <tabTrigger>style</tabTrigger>
+    <scope>source.js</scope>
+    <description>MUI: Restyle Component</description>
+</snippet>
