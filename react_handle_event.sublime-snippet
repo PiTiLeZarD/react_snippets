@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-const handle${1:Event} = (event) => {
+const handle${1:Event} = (${2:{ currentTarget \}}) => {
     $0
 };
 ]]></content>

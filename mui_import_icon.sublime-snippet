@@ -3,7 +3,7 @@
 import ${1:Name}Icon from "@material-ui/icons/${1:Name}";
 $0
 ]]></content>
-    <tabTrigger>mui</tabTrigger>
+    <tabTrigger>icon</tabTrigger>
     <scope>source.js</scope>
     <description>MUI: Import Icon</description>
 </snippet>

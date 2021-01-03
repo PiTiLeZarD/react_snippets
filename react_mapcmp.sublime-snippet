@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:array}.map((${2:value}, indx) => <${3:Component} key={indx}>$0</${3}>)
+]]></content>
+    <tabTrigger>map</tabTrigger>
+    <scope>source.js</scope>
+    <description>React: map component</description>
+</snippet>
+
+

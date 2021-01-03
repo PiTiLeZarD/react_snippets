@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-const ${1:Component} = (${2:props}) => {
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} = (${2:props}) => {
     return (
         $0
     );

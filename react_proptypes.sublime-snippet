@@ -2,14 +2,11 @@
     <content><![CDATA[
 ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.propTypes = {
     /** ${5:propDescription} */
-    ${2:propName}: PropTypes.${3:object.isRequired},
+    ${2:propName}: PropTypes.${3:object}${4:.isRequired},
 
     ${0}
 };
 
-${1}.defaultProps = {
-    ${2}: ${4:propDefaultValue},
-};
 ]]></content>
     <tabTrigger>proptype</tabTrigger>
     <scope>source.js -(meta)</scope>
