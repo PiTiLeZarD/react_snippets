@@ -9,6 +9,6 @@
 </FormControl>
 ]]></content>
     <tabTrigger>radio</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js,source.jsx</scope>
     <description>MUI: Radio Buttons</description>
 </snippet>

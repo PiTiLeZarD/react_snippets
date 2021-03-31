@@ -9,6 +9,6 @@ constructor(props) {
 }
 ]]></content>
     <tabTrigger>constructor</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js,source.jsx</scope>
     <description>React: constructor</description>
 </snippet>

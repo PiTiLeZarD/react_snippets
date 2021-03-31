@@ -3,7 +3,7 @@
 import ${2:{ $1 \}} from "${3:react}";
 ]]></content>
     <tabTrigger>import</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js,source.jsx</scope>
     <description>React: import</description>
 </snippet>
 

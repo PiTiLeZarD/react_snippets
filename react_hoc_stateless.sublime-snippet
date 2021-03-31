@@ -9,6 +9,6 @@ function with${1}(WrappedComponent) {
 }
 ]]></content>
     <tabTrigger>rhoc</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js,source.jsx</scope>
     <description>React: HOC (stateless)</description>
 </snippet>

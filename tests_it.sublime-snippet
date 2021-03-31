@@ -5,6 +5,6 @@ it("${1:description}", () => {
 });
 ]]></content>
     <tabTrigger>test</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js,source.jsx</scope>
     <description>Test: New test</description>
 </snippet>

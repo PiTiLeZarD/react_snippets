@@ -7,6 +7,6 @@ const Styled${1:Component} = withStyles((theme) => ({
 }))(${1});
 ]]></content>
     <tabTrigger>style</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js,source.jsx</scope>
     <description>MUI: Restyle Component</description>
 </snippet>

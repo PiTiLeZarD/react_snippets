@@ -6,6 +6,6 @@ jest.mock('${1:path/to/Environment}', () => {
 });
 ]]></content>
     <tabTrigger>relay</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js,source.jsx</scope>
     <description>Test: Mock Relay Environment</description>
 </snippet>

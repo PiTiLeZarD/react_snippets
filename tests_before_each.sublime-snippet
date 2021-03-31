@@ -6,6 +6,6 @@ beforeEach(() => {
 });
 ]]></content>
     <tabTrigger>before</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js,source.jsx</scope>
     <description>Test: beforeEach</description>
 </snippet>

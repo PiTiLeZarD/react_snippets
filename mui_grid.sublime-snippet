@@ -9,6 +9,6 @@
 </Grid>
 ]]></content>
     <tabTrigger>grid</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js,source.jsx</scope>
     <description>MUI Basic Grid</description>
 </snippet>

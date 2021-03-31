@@ -13,6 +13,6 @@
 </Card>
 ]]></content>
     <tabTrigger>card</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js,source.jsx</scope>
     <description>MUI: Card</description>
 </snippet>

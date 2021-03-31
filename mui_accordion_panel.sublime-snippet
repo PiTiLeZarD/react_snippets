@@ -10,7 +10,7 @@
 </Accordion>
 ]]></content>
     <tabTrigger>accordion</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js,source.jsx</scope>
     <description>MUI: Accordion</description>
 </snippet>
 

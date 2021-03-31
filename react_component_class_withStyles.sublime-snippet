@@ -18,6 +18,6 @@ export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}} extends Component
 export default withStyles(styles)(${1:ComponentName});
 ]]></content>
     <tabTrigger>rcc</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js,source.jsx</scope>
     <description>React: class component (withStyles)</description>
 </snippet>

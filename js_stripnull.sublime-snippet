@@ -3,7 +3,7 @@
 Object.keys(${1:obj}).forEach((key) => $1[key] === null && delete $1[key]);
 ]]></content>
     <tabTrigger>stripnull</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js,source.jsx</scope>
     <description>JS: Strip null values from object</description>
 </snippet>
 

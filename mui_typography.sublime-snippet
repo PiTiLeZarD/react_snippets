@@ -3,6 +3,6 @@
 <Typography variant="${1:body1}">$0</Typography>
 ]]></content>
     <tabTrigger>typo</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js,source.jsx</scope>
     <description>MUI: Typography</description>
 </snippet>
